@@ -25,7 +25,7 @@ export const AccountContainer = styled.View`
 `;
 
 export const AuthButton = styled(Button).attrs({
-    buttonColor: colors.brand.primary,
+  buttonColor: colors.brand.primary,
 })`
   padding: ${(props) => props.theme.space[2]};
 `;
@@ -44,4 +44,12 @@ export const ErrorContainer = styled.View`
   align-self: center;
   margin-top: ${(props) => props.theme.space[2]};
   margin-bottom: ${(props) => props.theme.space[2]};
+`;
+
+export const AnimationWrapper = styled.View`
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 30px;
+  padding: ${(props) => props.theme.space[2]};
 `;
