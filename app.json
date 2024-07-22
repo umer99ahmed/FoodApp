@@ -26,6 +26,9 @@
         "backgroundColor": "#FFFFFF"
       }
     },
-    "runtimeVersion": "sdkVersion"
+    "runtimeVersion": "sdkVersion",
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
